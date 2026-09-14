@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600&display=swap');
+
+body {
+  background-color: #2a111a; /* لون غامق للشاشة من بره لو اتفتح من كمبيوتر */
+  margin: 0;
+}
+
+.grain-bg {
+  background-image: radial-gradient(circle at 1px 1px, rgba(69, 26, 40, 0.08) 1px, transparent 0);
+  background-size: 16px 16px;
+}
+
+/* الخط الفاصل اللي في الديزاين الأصلي */
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 12px 0;
+  color: #451A28;
+}
+.divider::before, .divider::after {
+  content: '';
+  width: 45px;
+  height: 1px;
+  background-color: #451A28;
+  opacity: 0.3;
+}
