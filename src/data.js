@@ -17,9 +17,9 @@ export const clientData = {
   },
   
   song: {
-    title: "Until I Found You",
-    artist: "Stephen Sanchez",
-    coverArt: "/cover.jpg",
+    title: "Enta Habiby",
+    artist: "TUL8TE",
+    coverArt: "/cover.png",
     audioSrc: "/song.mp3",
     footerQuote: "Because every song reminds me of you... ♡"
   },
